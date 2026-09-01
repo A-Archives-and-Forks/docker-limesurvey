@@ -52,3 +52,9 @@ commandTests:
     command: "php"
     args: ["-m"]
     expectedOutput: ["ldap", "zip", "pdo_mysql", "pdo_sqlite", "gd", "mbstring", "PDO"]
+  - name: "Console command runs without PHP errors"
+    command: "php"
+    args: ["application/commands/console.php"]
+    exitCode: 1
+    expectedOutput: ["Yii command runner"]
+    excludedOutput: ["Deprecated", "PHP Error"]

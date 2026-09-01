@@ -189,7 +189,7 @@ $ docker volume rm docker-limesurvey_lime
 
 ## Upgrading to 7.0 from 6.x
 
-The LimeSurvey 7 Images will use PHP 8.5 and Debian Trixie as Base Images.
+The LimeSurvey 7 Images will use PHP 8.4 and Debian Trixie as Base Images.
 
 Note that, the php-imap extention has been removed from Debian Trixie and this container image.
 
