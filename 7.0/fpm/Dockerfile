@@ -1,4 +1,4 @@
-FROM docker.io/php:8.5-fpm-trixie
+FROM docker.io/php:8.4-fpm-trixie
 LABEL maintainer="markus@martialblog.de"
 
 # Install OS dependencies
